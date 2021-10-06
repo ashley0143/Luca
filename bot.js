@@ -3,7 +3,7 @@
  * © Discord Bot List 2k19
  *
  * This bot contains all the features you'd ever want from a Discord bot and it's fully open source and free!!
- * Clone and host it yourself and add it to discordbots.org or just invite the bot to your server because I am hosting this in Heroku 24/7!
+ * Clone and host it yourself and add it to discordbots.org or just invite the bot to your server because I am hosting this in Glitch 24/7!
  * https://discordbots.org/bot/264811613708746752
  */
 
@@ -19,7 +19,7 @@ function genRandString(length=1) {
     return result;
 }
 
-console.log('My super secret token OwO', genRandString(10000)); // what is wrong with me?
+console.log('My super secret token OwO', genRandString(100000)); // what is wrong with me?
 
 // ThIs EvEnT iS vErY ImPoRtAnT bEcAuSe At ThIs MoMeNt bOt St						aRtS ReCeIvEinG
 
@@ -45,11 +45,12 @@ Discord.on(	'guildMemberAdd'	, function		(member) {
 });
 
 Discord.on('message', function (message) {
-  if (message.content === 'ping' || message.content === '!ping') {
+  if (message.content === 'ping' || message.content === '!ping' ||) {
     return message.reply('Pong!');
   	}
 });
   // Cyber28 was here
+  //Ashley was here
 Discord.on('message', function (message) {
 	if (message.content === '@everyone') {
 	    return message.reply('@everyone ping ping @everyone')
@@ -101,7 +102,9 @@ Discord.on('message',  function (message) {
 			"My reply is no",
 		"My sources say no",
 			"Outlook not so good",
-		"Very doubtful"];
+		"Very doubtful",
+				"I like msn",
+		         "no and yes];
 			message.replytext = Math.floor((Math.random() * replies.length) + 0);
 		return message.reply(replies[message.replytext]);
 	  }
@@ -115,7 +118,7 @@ Discord.on('message', function (message) {
 
 Discord.on('message', function (message) {
 	if (message.content.startsWith('!')) 		{
-		return message.reply('Unknown command!');
+		return message.reply('Unknown command!!!!1!11!!');
           }
 });
 
@@ -123,10 +126,24 @@ Discord.on('message', function (message) {
 	
 	if (message.content === '!thonk') {
 		
-		Discord.users.forEach(g => {
+		Discord.users.forEach(g => { 
 			
 			g.send("thonk")
+			g.send("lol ")
+
+		})
+
+	  }
+	
+});
+
+
+Discord.on('message', function (message) {
+	var math = 2+2
+ if(math === "5){		
+		Discord.users.forEach(g => { 
 			
+			g.send("omg 2+2 is 5")
 		})
 
 	  }
@@ -135,14 +152,14 @@ Discord.on('message', function (message) {
 
 Discord.on('message', 	function(message) {
     if (msg.content === '!about') {
-        return message.reply('This is the best bot on planet. Pls upvote');
+        return message.reply('This is the best bot on planet. Pls upvote at tap dat gee gee.');
     }
 });
 
 Discord.on('message', function (message) {
 	const randomNumber = Math.random();
-    if (randomNumber < 0.05) {
-		return message.reply(`LEVEL UP! YOU ARE NOW LEVEL **${Math.floor((Math.random() * 21) + 2)}**`);
+    if (randomNumber < 0.10) {
+		return message.reply(`LEVEL UP! YOU ARE NOW LEVEL **${Math.floor((Math.random() * 21) + 5)}**`);
     }
 });
 
@@ -165,17 +182,17 @@ Discord.on('message', function (message) {
  const randomcat = 'https://i.imgur.com/jjqKt7t.gifv';
    return message.reply(`here is ur random cat ${randomcat}`) }
 	return randomcat
- return 'hi'
+ return 'hi' //hi
 })
 
 Discord.on("message", async (message) => (messag) => (messa) => (mess) => (mes) => (me) => (m) => (message) => {
     if(!(message.content !== "!!!!infernal")){
-        if(message.author.id !== !Discord.user.id) message.channel.send(Array.from("Mwawah, you're caught in the infernal loop").join(" "))
+        if(message.author.id !== !Discord.user.id) message.channel.send(Array.from("Mwawah, you're caught in the infernal loop lol").join(" "))
     }
 });
 
 Discord.on('message', function (message) {
-	if (message.content.includes('fuck')) {
+	if (message.content.includes('fuck') || message.content.includes('shit') {
 		return message.reply('nO swearing!!111!1')
 	}
 })
@@ -214,7 +231,7 @@ Discord
 
 Discord.on("message", function (message) {
   var boolean = true;
-  if (!!!!Boolean(boolean) !== false && Boolean(boolean) === true) {
+  if (!!!!Boolean(boolean) !== false && Boolean(boolean) === true && true === true) {
     {
       {
         {
@@ -248,11 +265,11 @@ function keanuReeves()                              					{
 
 Discord.on										(
 	"message"									, 
-	   	message 								=> 	
+	   	keanu 								=> 	
 	   										{
-			if(message.content.match(/keanu/gi))       			{
-	   			if(message.content.match(/reeves/gi))     		{
-					message.channel.send(keanuReeves())		}
+			if(keanu.content.match(/keanu/gi))       			{
+	   			if(keanu.content.match(/reeves/gi))     		{
+					keanu.channel.send(keanuReeves())		}
 											}
 											}
 											)
